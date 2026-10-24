@@ -1,0 +1,6 @@
+.template-logo { display: grid; place-content: center; text-align: center; inline-size: clamp(64px, 8vw, 100px); min-block-size: 52px; padding: 4px; border: 1px dashed #d8eafb; border-radius: 10px; background: #ffffff14; color: white; font-size: 11px; line-height: 1.7; }
+.template-media { display: grid; place-content: center; gap: 5px; aspect-ratio: 16 / 9; max-block-size: 150px; inline-size: 100%; border: 1px dashed #80a8ce; border-radius: 12px; background: #edf5fc; color: #145da0; text-align: center; font-size: 13px; }
+.template-media > span { font-size: 36px; line-height: 1; }
+.template-media--image { max-block-size: 90px; }
+.template-notice { color: #465c72; font-size: 13px; }
+@media(max-width:600px) { .brand-header { grid-template-columns: 64px minmax(0,1fr) 64px; } .template-logo { inline-size: 60px; min-block-size: 42px; font-size: 9px; } }
