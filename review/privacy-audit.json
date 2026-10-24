@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "filesScanned": 96,
+  "privateMarkersChecked": 20,
+  "originalAssetHashesChecked": 13,
+  "longSourceStringsChecked": 61,
+  "matches": []
+}
